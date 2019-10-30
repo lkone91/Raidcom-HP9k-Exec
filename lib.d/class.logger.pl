@@ -10,7 +10,7 @@ sub init_logger {
     
     my ($log_cls, $user, $inst, $log_path) = @_;
     
-    my $log_file = "${log_path}/log_hp9k_exec.log";
+    my $log_file = "${log_path}/log_hp9k_utils.log";
     
     my $this = {
         "user" => uc($user),

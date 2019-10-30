@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 #
 #---------------------------------------------------------------------------
-# Script    : hp9k_exec.pl                                                 |
+# Script    : hp9k_utils.pl                                                 |
 # Author    : L.Koné                                                       |
 # Language  : Perl                                                         |
 # Lib Dir   : lib.d                                                        |
@@ -112,16 +112,16 @@ my $usage = "
     
  Syntax
 ------------------------------------
- ./hp9k_exec.pl -h [Help]
- ./hp9k_exec.pl -i <inst> info|remove|delete -s <server>|-l <lun list>
- ./hp9k_exec.pl -i <inst> create -s <server> -nlun <new lun>
+ ./hp9k_utils.pl -h [Help]
+ ./hp9k_utils.pl -i <inst> info|remove|delete -s <server>|-l <lun list>
+ ./hp9k_utils.pl -i <inst> create -s <server> -nlun <new lun>
  
   <-nlun> Syntax\t: 1x126,3x216...
   
  Example
 ------------------------------------
- ./hp9k_exec.pl -i 86 info -s SERVER
- ./hp9k_exec.pl -i 87 remove -l 3daf,3eaa
+ ./hp9k_utils.pl -i 86 info -s SERVER
+ ./hp9k_utils.pl -i 87 remove -l 3daf,3eaa
  
   
  Available Lun|Instance
